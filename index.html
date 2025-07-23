@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siax - Bio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="Siax Logo" class="logo-img">
+                <span class="nav-brand">Siax</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="javascript:void(0)" onclick="showSection('home')" class="nav-link active">Главная</a></li>
+                <li><a href="javascript:void(0)" onclick="showSection('profile')" class="nav-link">Профиль</a></li>
+                <li><a href="javascript:void(0)" onclick="showSection('pricing')" class="nav-link">Прайс</a></li>
+                <li><a href="javascript:void(0)" onclick="showSection('works')" class="nav-link">Работы</a></li>
+                <li><a href="javascript:void(0)" onclick="showSection('faq')" class="nav-link">FAQ</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="section active">
+        <div class="particles"></div>
+        
+        <div class="floating-icons">
+            <div class="floating-icon" style="top: 20%; left: 10%;"><i class="fas fa-lock"></i></div>
+            <div class="floating-icon" style="top: 30%; right: 15%;"><i class="fas fa-laptop-code"></i></div>
+            <div class="floating-icon" style="bottom: 30%; left: 20%;"><i class="fas fa-shield-alt"></i></div>
+            <div class="floating-icon" style="bottom: 20%; right: 10%;"><i class="fas fa-bolt"></i></div>
+            <div class="floating-icon" style="top: 50%; left: 5%;"><i class="fas fa-bug"></i></div>
+            <div class="floating-icon" style="top: 60%; right: 5%;"><i class="fas fa-terminal"></i></div>
+        </div>
+
+        <div class="container">
+            <div class="profile-section">
+                <div class="avatar-container">
+                    <img src="logo.jpg" alt="Siax" class="avatar">
+                    <div class="status-indicator"></div>
+                </div>
+                
+                <h1 class="username">Siax</h1>
+                <p class="tagline">Pentest and OSINT Specialist</p>
+                
+                <div class="action-buttons">
+                    <button class="btn btn-primary contact-btn">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </button>
+                </div>
+                
+                <div class="social-links">
+                    <a href="ССЫЛКА НА ТЕЛЕГРАМ" class="social-link">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="ССЫЛКА НА ГИТ ХАБ" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="section">
+        <div class="container">
+            <h2 class="section-title">Профиль</h2>
+            <div class="profile-content">
+                <div class="bio-section">
+                    <div class="bio-text">
+                        <p>Специализируюсь на тестировании на проникновение и исследовании уязвимостей в системах безопасности. Провожу комплексные аудиты безопасности, анализирую код на предмет уязвимостей и помогаю компаниям укрепить их цифровую защиту.</p>
+                        
+                        <p>Работаю с различными методологиями пентестинга, включая OWASP, NIST и PTES. Имею опыт работы с веб-приложениями, сетевой инфраструктурой и мобильными приложениями.</p>
+                    </div>
+                    
+                    <div class="os-info">
+                        <i class="fab fa-linux"></i>
+                        <span>Debian Linux</span>
+                    </div>
+                </div>
+                
+                <div class="stack-section">
+                    <h3>Stack:</h3>
+                    <div class="tech-stack">
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Прайс</h2>
+            <div class="pricing-content">
+                <div class="price-item">
+                    <h3>Pentesting: $100-1000</h3>
+                    <p>I will find all the vulnerabilities of your machine, errors in the code and help fix them</p>
+                </div>
+                
+                <div class="price-item">
+                    <h3>OSINT: $25-200</h3>
+                    <p>I will find any person, address, number and his entire family.</p>
+                </div>
+                
+                <div class="price-item">
+                    <h3>Access to my pack: $50</h3>
+                    <p>Contains over 100 files, crypers, malware and other programs.</p>
+                </div>
+                
+                <div class="price-item">
+                    <h3>DDoS attack: $50+</h3>
+                    <p>I will disable almost any site</p>
+                </div>
+                
+                <div class="price-item">
+                    <h3>I sell physical numbers, proxies: $2+</h3>
+                    <p>I do not leak information about the buyer, the numbers and proxies are suitable for any service</p>
+                </div>
+                
+                <div class="price-item">
+                    <h3>I am writing a code for an order: $10+</h3>
+                </div>
+                
+                <div class="payment-methods">
+                    <h4>I accept money via:</h4>
+                    <div class="payment-list">
+                        <span>USDT</span>
+                        <span>TON</span>
+                        <span>BTC</span>
+                        <span>PayPal</span>
+                        <span>Russian cards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="section">
+        <div class="container">
+            <h2 class="section-title">Работы</h2>
+            <div class="works-content">
+                <h3 class="work-category">DDoS</h3>
+                <div class="work-gallery">
+                    <div class="work-item">
+                        <img src="work1.jpg" alt="DDoS Safe-Internet-League" class="work-image">
+                        <div class="work-description">
+                            The Safe-Internet-League (<a href="https://ligainternet.ru" target="_blank" class="work-link">ligainternet.ru</a>) website was overloaded and temporarily down.
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <img src="work2.jpg" alt="DDoS Work 2" class="work-image">
+                        <div class="work-description">
+                            Another successful DDoS attack demonstration.
+                        </div>
+                    </div>
+                    <!-- ЧТОБЫ ДОБАВИТЬ ДАЛЬШЕ ЗАЛУПУ ВОТ ШАБЛОН ПЕДИК
+                    <div class="work-item">
+                        <img src="ФАЙЛ.jpg" alt="Описание" class="work-image">
+                        <div class="work-description">
+                            СЮДА ОПИСАНИЕ
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            <div class="faq-content">
+                <div class="faq-links">
+                    <a href="ССЫЛКА НА ТГ" class="faq-link">
+                        <i class="fab fa-telegram"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="ССЫЛКА НА ГИТХАБ" class="faq-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
